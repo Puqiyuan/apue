@@ -1,3 +1,9 @@
+/*
+  Before you can compile this program successfully, please download the source codes of APUE book 
+from www.apuebook.com, and compile it firstly, maybe partly not successfully, does not matter, because we just need the apue.h head file. Then compile this program by command: gcc 81.c -I ../../apue.3e/include/ -L ../../apue.3e/lib/ -lapue, where "../../apue.3e/include/"" is the location of apue.h head file, the location is up to you, in my computer is like this. The other programs in APUE project compile like this, except the specify explain.
+ */
+
+
 #include <apue.h>
 #include <errno.h>
 #include <limits.h>
