@@ -5,6 +5,13 @@ we just need the apue.h head file. Then compile this program by command:
 gcc p81.c -I ../../apue.3e/include/ -L ../../apue.3e/lib/ -lapue, where "../../apue.3e/include/" is
 the location of apue.h head file, the location of apue.h in my computer is like that.
 The other programs in APUE project compile like this, except the specify explain.
+Your output should be like this:
+    pqy@sda1:~/.../chapter2$ ./a.out /
+    no symbol for ARG_MAX
+    ARG_MAX =  2097152
+    MAX_CANON defined to be 255
+    MAX_CANON =  255
+
  */
 
 
