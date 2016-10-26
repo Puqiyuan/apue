@@ -1,8 +1,11 @@
 /*
   I add main function for test.
+
+  Your output should be like this after you running:
+  pqy@sda1:~/.../chapter2$ ./a.out 
+  The max file can be open: 65536
   
  */
-
 
 
 #include "apue.h"
