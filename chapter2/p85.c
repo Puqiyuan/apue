@@ -3,6 +3,11 @@
   now that we set the posix_version = 0, why we judge "posix_version == 0" at line 29?
 
   As original program no main function, I add the main function.
+
+  Your output should be like this:
+  pqy@sda1:~/.../chapter2$ ./a.out 
+  The size of memory that allocated:4096
+
  */
 
 
