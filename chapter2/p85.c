@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
   
   ptr = path_alloc(sizep);
   
-  printf("The size of memory that allocated:%zu\n", sizep);
+  printf("The size of memory that allocated:%ld\n", pathmax);
 
   
   return 0;
