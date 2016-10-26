@@ -1,3 +1,11 @@
+/*
+  One question of this program is that:
+  now that we set the posix_version = 0, why we judge "posix_version == 0" at line 29?
+
+  As original program no main function, I add the main function.
+ */
+
+
 #include "apue.h"
 #include <errno.h>
 #include <limits.h>
