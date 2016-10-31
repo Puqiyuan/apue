@@ -1,7 +1,19 @@
 /*
   Before you can compile this program successfully, please download the source codes of APUE book
-from www.apuebook.com, and compile it firstly, maybe partly not successfully, does not matter, because
-we just need the apue.h head file. Then compile this program by command:
+from www.apuebook.com, and compile it firstly.
+
+Make sure you have all the necessary dev packages installed before make, otherwise your make will fail.
+For example, if you see the following make error:
+
+/usr/bin/ld: cannot find -lbsd
+
+that means you don't have libbsd-dev installed. All you have to do is
+
+sudo apt install libbsd-dev
+
+and then make again.
+
+Then compile this program by command:
 gcc p81.c -I ../../apue.3e/include/ -L ../../apue.3e/lib/ -lapue, where "../../apue.3e/include/" is
 the location of apue.h head file, the location of apue.h in my computer is like that.
 The other programs in APUE project compile like this, except the specify explain.
