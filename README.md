@@ -19,7 +19,7 @@ every example program in chapter folder is the actually page number in the paper
 using page number for example programs naming, I am every convenience for reading and
 working on this project, because I don't need to memorize what chapter or what section or
 what small section I am reading for naming one example program, just page number, easy to
-use. If you want to test these number while reference APUE book, please careful this convention.
+use. If you want to test these programs while reference APUE book, please careful this convention.
 
 
 
