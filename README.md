@@ -21,6 +21,9 @@ working on this project, because I don't need to memorize what chapter or what s
 what small section I am reading for naming one example program, just page number, easy to
 use. If you want to test these programs while reference APUE book, please careful this convention.
 
+The include folder and lib folder are from author's source codes. The other programs are
+from the author's book, but I rewrite and test it for learning and understanding aims. The
+exercise folder do by myself.
 
 
 
