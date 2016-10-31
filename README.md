@@ -5,3 +5,22 @@ directory under top directory. Maybe some other organization will appear in the 
 because of learning arrangement. Because I start the project when I studied chapter2, so
 there is no directory for chapter1.
 
+For convenient to cooperation, I will illustrate some things about book and programs
+organizations.
+
+Firstly, my APUE book is the third edition, PDF file. You can Google it by apue book pdf,
+easy to get, note that it's the third edition, PDF file. And I open the book by zathura
+tool on Debian, so the actually page number in paper book is different from that zathura
+give to me, but the example programs in book ,not exercises programs written and test by
+me are named by page number, see README file in chapter2 folder. The page number for
+naming example program in book is from zathura tool, not the actually page on that paper
+book. If you don't use zathura or don't use Debian, does not matter, the first line of
+every example program in chapter folder is the actually page number in the paper book. By
+using page number for example programs naming, I am every convenience for reading and
+working on this project, because I don't need to memorize what chapter or what section or
+what small section I am reading for naming one example program, just page number, easy to
+use. If you want to test these number while reference APUE book, please careful this convention.
+
+
+
+
