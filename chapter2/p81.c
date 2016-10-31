@@ -13,11 +13,19 @@ sudo apt install libbsd-dev
 
 and then make again.
 
-Then compile this program by command:
-gcc p81.c -I ../../apue.3e/include/ -L ../../apue.3e/lib/ -lapue, where "../../apue.3e/include/" is
-the location of apue.h head file, the location of apue.h in my computer is like that.
-The other programs in APUE project compile like this, except the specify explain.
-Your output should be like this:
+Usually, you don't have to compile each .c source file individually with gcc. 
+Instead, after making some modification, for example, you can just type 'make'. 
+'Make' will take care of everything for you.
+
+If you insist on compiling each .c with gcc, you can do, for example, like this:
+
+gcc p81.c -I ../../apue.3e/include/ -L ../../apue.3e/lib/ -lapue
+
+ * -I tells gcc which directory to look for the include file.
+ * -L tells it the location of the library directory, and
+ * -lapue, tells the name of the library file to look for in that directory.
+
+The output should be like this:
     pqy@sda1:~/.../chapter2$ ./a.out /
     no symbol for ARG_MAX
     ARG_MAX =  2097152
