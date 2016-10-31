@@ -1,4 +1,6 @@
 /*
+  page number in paper book: 47
+
   Before you can compile this program successfully, please download the source codes of APUE book
 from www.apuebook.com, and compile it firstly.
 
