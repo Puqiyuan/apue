@@ -25,5 +25,8 @@ The include folder and lib folder are from author's source codes. The other prog
 from the author's book, but I rewrite and test it for learning and understanding aims. The
 exercise folder do by myself.
 
+In each chapter directory, there are two directories existing in any chapter directory,
+one is example_programs, it is for put the example programs for testing and rewriting. The
+other directory is exercise, for containing exercise problems at the end of each chapter.
 
 
