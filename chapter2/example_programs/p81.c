@@ -28,7 +28,7 @@ gcc p81.c -I ../../apue.3e/include/ -L ../../apue.3e/lib/ -lapue
  * -lapue, tells the name of the library file to look for in that directory.
 
 The output should be like this:
-    pqy@sda1:~/.../chapter2$ ./a.out /
+    pqy@sda1:~/.../chapter2$ ./p81 /
     no symbol for ARG_MAX
     ARG_MAX =  2097152
     MAX_CANON defined to be 255
