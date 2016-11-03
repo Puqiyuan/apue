@@ -1,9 +1,8 @@
 IDIR=include
 CC=gcc
 CFLAGS1=-I $(IDIR)
-CHAPTER2=chapter2
+CHAPTER2CODES=chapter2/example_programs
 BIN=bin
-CURRENT=APUE
 
 ODIR=obj
 LDIR=lib
@@ -17,7 +16,7 @@ _DEPS = apue.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
 
-$(ODIR)/%.o: $(CHAPTER2)/%.c $(DEPS)
+$(ODIR)/%.o: $(CHAPTER2CODES)/%.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS1)
 
 $(BIN)/%: $(ODIR)/%.o
