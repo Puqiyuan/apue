@@ -2,6 +2,8 @@ Please ensure that you complete reading this README file, because it including s
 notes about this project. If you feeling confuse any time, please check this README
 file carefully.
 
+Before you can successfully make, please create two directory, obj and bin.
+
 The project is the learning notes for the Advanced Programming in the UNIX Environment
 book. The project including all codes implement and solutions for exercise problems. The
 organization of the project is following the book by chapter, so every chapter have a
