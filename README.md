@@ -28,9 +28,9 @@ because I don't need to memorize what chapter or what section or what small sect
 reading for naming one example program, just page number, easy to use. If you want to test
 these programs while reference APUE book, please careful this convention.
 
-The include folder and lib folder are from author's source codes. The other programs are
-from the author's book, but I rewrite and test it for learning and understanding aims. The
-exercise folder do by myself.
+The include folder and lib folder are from author's source codes. The other programs in
+each chapter directory are from the author's book as sample programs, but I rewrite and
+test it for learning and understanding aims. The exercise folder do by myself.
 
 In each chapter directory, there are two directories existing in any chapter directory,
 one is example_programs, it is for put the example programs for testing and rewriting. The
@@ -40,3 +40,5 @@ The two directories under chapter directory, one is examples_programs including 
 example programs in this chapter, every program is named like "pxx.c", where "p" is the
 shorthand of "page", and "xxx" is the number of page. This convention also apply to other
 chapter directories, so the convention statement will not appear in other directories.
+
+All executable files are added to bin folder.
