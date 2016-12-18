@@ -5,7 +5,7 @@
 from www.apuebook.com, and compile it firstly.
 
 Make sure you have all the necessary dev packages installed before make, otherwise your make will fail.
-For example, if you see the following make error:
+For example, if you see the following make errors:
 
 /usr/bin/ld: cannot find -lbsd
 
