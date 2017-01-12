@@ -12,7 +12,7 @@ LDIR=lib
 LIBS=-lapue
 CFLAGS2=-L $(LDIR)
 .SECONDARY: $(OBJS)
-all: $(BIN)/p81 $(BIN)/p85 $(BIN)/p86 $(BIN)/p101 $(BIN)/p102 $(BIN)/p106
+all: $(BIN)/p81 $(BIN)/p85 $(BIN)/p86 $(BIN)/p101 $(BIN)/p102 $(BIN)/p106 $(BIN)/p118
 
 _DEPS = apue.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
