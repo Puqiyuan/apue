@@ -1,3 +1,7 @@
+NOTICE: THIS PROGECT HAS BEEN MIGRATED TO
+http://cs3.swfu.edu.cn/~puqiyuan/subject/linux/blogs/2/apue.html
+
+
 Please ensure that you complete reading this README file, because it including so much
 notes about this project. If you feeling confuse any time, please check this README
 file carefully.
