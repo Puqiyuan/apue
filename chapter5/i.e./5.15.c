@@ -1,3 +1,16 @@
+/*
+  test result:
+  ~/.../i.e.$ ./a.out 
+  initial buffer contents: 
+  before flush: 
+  after fflush: hello, world
+  len of string in buf = 12
+  after fseek: bbbbbbbbbbbbhello, world
+  len of string in buf = 24
+  after fclose: hello, worldcccccccccccccccccccccccccccccccccc
+  len of string in buf = 46
+*/
+
 #include <apue.h>
 
 #define BSZ 48
