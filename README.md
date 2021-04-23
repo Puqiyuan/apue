@@ -42,3 +42,5 @@ shorthand of "page", and "xxx" is the number of page. This convention also apply
 chapter directories, so the convention statement will not appear in other directories.
 
 All executable files are added to bin folder.
+
+Please install sudo apt-get install libbsd-dev on linux.
